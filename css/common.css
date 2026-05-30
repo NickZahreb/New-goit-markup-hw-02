@@ -1,23 +1,39 @@
 body {
+  color: #434455; /* Глобальний колір тексту */
+  background-color: #f4f4fd; /* Загальний фон сторінки */
+
+  /* Твої шрифти, які вже підключені */
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400; /* Звичайна жирність тексту */
+  font-weight: 400;
   font-style: normal;
   font-variation-settings: "wdth" 100;
 }
 
-/* .roboto-<uniquifier > {
-  font-family: "Roboto", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings: "wdth" 100;
-} */
+ul,
+ol {
+  list-style: none; /* Видаляємо стандартні маркери списків */
+}
 
-/* .raleway-<uniquifier > {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings: "wdth" 100;
-} */
+a {
+  text-decoration: none; /* Видаляємо підкреслення у посилань */
+  color: inherit; /* Наслідуємо колір тексту для посилань */
+}
+
+.hero .title {
+  font-size: 56px; /* Розмір шрифту для заголовка */
+  font-weight: 700; /* Жирність для заголовка */
+  line-height: 1.07143; /* Висота рядка для заголовка */ /* line-height: 60px; */
+  letter-spacing: 0.02em; /* Інтервал між літерами для заголовка */
+  text-align: center; /* Вирівнюємо заголовки секцій по центру */
+
+  color: #ffffff; /* Білий колір для заголовка */
+  /* color: var(--white); */
+}
+
+.section-title {
+  font-size: 36px;
+  font-weight: 700; /* Bold */
+  letter-spacing: 0.02em;
+  text-align: center; /* Вирівнюємо заголовки секцій по центру */
+}
