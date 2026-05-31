@@ -7,3 +7,23 @@
   background: var(--white);
   background-color: #ffffff; /* WHITE / Чистий білий фон для карток команди */
 }
+
+.team-title {
+  font-size: 20px;
+  font-weight: 500; /* Bold */
+  letter-spacing: 0.03em;
+  line-height: 1.2; /* line-height: 24px; */
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--navy-blue);
+  color: #2e2f42; /* Navy-blue Колір заголовка */
+}
+.team-text {
+  font-size: 16px;
+  font-weight: 400; /* Regular */
+  line-height: 1.5; /* line-height: 24px; */
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--slate);
+  color: #4d4f66; /* SLATE / Темно-сірий колір для тексту */
+}

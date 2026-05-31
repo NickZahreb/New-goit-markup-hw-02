@@ -4,15 +4,17 @@
 }
 
 #footer .logo {
+  color: var(--cloud);
   color: #f4f4f4; /* Колір Cloud М'який світло-сірий колір*/
-  /* color: var(--cloud); */
 }
 
 .footer-text {
-  font-weight: 400; /* Normal */
-  color: #f4f4f4; /* Колір Cloud М'який світло-сірий колір*/
-  /* color: var(--cloud); */
   font-size: 16px; /* Розмір шрифту для тексту в футері */
+  font-weight: 400; /* Normal */
+
   line-height: 1.5; /* line-height: 24px; */
   letter-spacing: 0.02em; /* Інтервал між літерами для тексту в футері */
+
+  color: var(--cloud);
+  color: #f4f4f4; /* Колір Cloud М'який світло-сірий колір*/
 }

@@ -1,0 +1,17 @@
+.project-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2; /* line-height: 24px; */
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+  color: #2e2f42; /* Navy-blue Колір заголовка */
+}
+
+.project-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5; /* line-height: 24px; */
+  letter-spacing: 0.02em;
+  color: var(--slate);
+  color: #4d4f66; /* SLATE / Темно-сірий колір для тексту */
+}

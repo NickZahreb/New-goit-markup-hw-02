@@ -1,0 +1,17 @@
+.feature-title {
+  font-size: 20px; /* Розмір шрифту для заголовка */
+  font-weight: 500; /* Жирність для заголовка */
+  line-height: 1.2; /* Висота рядка для заголовка */ /* line-height: 24px; */
+  letter-spacing: 0.02em; /* Інтервал між літерами для заголовка */
+  color: var(--navy-blue);
+  color: #2e2f42; /* Navy-blue Колір заголовка */
+}
+
+.feature-text {
+  font-size: 16px; /* Розмір шрифту для тексту */
+  font-weight: 400; /* Жирність для тексту */
+  line-height: 1.5; /* Висота рядка для тексту */ /* line-height: 24px; */
+  letter-spacing: 0.02em; /* Інтервал між літерами для тексту */
+  color: var(--slate);
+  color: #434455; /* Slate Колір тексту */
+}

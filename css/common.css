@@ -29,12 +29,16 @@ a {
 }
 
 .color-primary-brand {
-  color: #4d5ae5; /* Колір Primary Brand */
+  color: var(--iris);
+  color: #5f5bff; /* IRIS / Яскравий фіолетовий колір для основного бренду */
 }
 
 .section-title {
   font-size: 36px;
   font-weight: 700; /* Bold */
   letter-spacing: 0.02em;
+  line-height: 1.11111; /* line-height: 40px; */
   text-align: center; /* Вирівнюємо заголовки секцій по центру */
+  color: var(--navy-blue);
+  color: #2e2f42; /* Navy-blue Колір заголовка */
 }

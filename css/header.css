@@ -1,7 +1,39 @@
 #header .logo {
+  color: var(--iris);
   color: #2e2f42; /* Колір Dark */
-  /* color: var(--iris); */
 }
 
-.header.menu-nav : {
+.menu-nav .menu-item {
+  font-size: 16px; /* Розмір шрифту для пунктів меню */
+  font-weight: 500; /* Жирність для пунктів меню */
+  line-height: 1.5; /* line-height: 24px; */
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+  color: #2e2f42; /* Navy-blue / Dark Колір тексту для пунктів меню */
+}
+
+.menu-nav .menu-item:hover,
+.menu-nav .menu-item:focus {
+  color: var(--ocean);
+  color: #404bbf; /* Колір Ocean для ефекту при наведенні */
+}
+
+.menu-nav .menu-item:active {
+  color: var(--ocean);
+  color: #404bbf; /* Колір Ocean для активного пункту меню */
+}
+
+.menu-contact .contact-item {
+  font-size: 16px; /* Розмір шрифту для контактної інформації */
+  font-weight: 500; /* Жирність для контактної інформації */
+  line-height: 1.5; /* line-height: 24px; */
+  letter-spacing: 0.02em;
+  color: var(--slate);
+  color: #434455; /* Slate Колір тексту для контактної інформації */
+}
+
+.menu-contact .contact-item:hover,
+.menu-contact .contact-item:focus {
+  color: var(--ocean);
+  color: #404bbf; /* Колір Ocean посилань у контактній інформації */
 }
