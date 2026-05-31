@@ -1,0 +1,9 @@
+.team {
+  background: var(--cloud);
+  background-color: #f4f4fd; /* CLOUD / Light М'який світло-сірий фон для секції команди */
+}
+
+.team-card {
+  background: var(--white);
+  background-color: #ffffff; /* WHITE / Чистий білий фон для карток команди */
+}
