@@ -24,10 +24,10 @@ a {
   font-size: 18px; /* Розмір шрифту для логотипу */
   font-weight: 700; /* Жирність для логотипу */
   letter-spacing: 0.03em; /* Інтервал між літерами для логотипу */
-
   line-height: 1.16667; /* line-height: 21px; */
   text-transform: uppercase;
 }
+
 .color-primary-brand {
   color: #4d5ae5; /* Колір Primary Brand */
 }
