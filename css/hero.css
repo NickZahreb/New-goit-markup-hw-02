@@ -20,27 +20,22 @@
 }
 
 .button {
-  margin-top: 20px; /* Відступ зверху для кнопки */
-  padding: 12px 24px; /* Внутрішні відступи для кнопки */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 16px 32px;
+  min-width: 169px;
+  height: 56px;
 
   background: var(--iris);
   background-color: #4d5ae5; /* Колір Primary Brand для кнопки */
   border: none; /* Видаляємо рамку у кнопки */
   border-radius: 4px; /* Закругляємо кути кнопки */
-  cursor: pointer; /* Змінюємо курсор при наведенні на кнопку */
-
-  border-radius: 4px;
-  padding: 16px 30px;
-  width: 169px;
-  height: 56px;
-
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: row;
-  gap: 10px;
+  cursor: pointer; /* Змінюємо курсор при наведенні на кнопку */
+
 }
 
 .button:hover {
